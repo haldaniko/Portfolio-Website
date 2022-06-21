@@ -1755,14 +1755,15 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			margin-left: auto;
+    margin-right: auto;
+    width: 6em
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				margin-left: auto;
+    margin-right: auto;
+    width: 6em
 			}
 
 		.image.fit {
@@ -2107,6 +2108,8 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+		    padding-top: 10px;
+		    text-align: center
 		}
 
 		#logo p {
@@ -2116,12 +2119,14 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			text-align: center
 		}
 
 		#logo .image {
 			position: absolute;
 			left: 0;
 			top: 0;
+			text-align: center
 		}
 
 	#nav ul {
@@ -2344,6 +2349,7 @@ input, select, textarea {
 			#logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
+				text-align: center;
 			}
 
 			#nav ul li a {
@@ -2575,6 +2581,13 @@ input, select, textarea {
 
 	}
 
+.profile-photo-edit, .profile-photo-edit__preview {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
